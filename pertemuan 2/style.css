@@ -1,0 +1,219 @@
+body {
+	margin: 0;
+	font-family: Arial, sans-serif;
+    background-color: #F8F9FA;
+}
+.navbar {
+    background: #ED5D24;
+    margin: 0;
+    padding: 20px 30px;
+}
+
+.logo {
+    font-size: 14pt;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tombol {
+    display: none;
+    color: white;
+    font-size: 14pt;
+}
+
+.tombol:hover {
+    cursor: pointer;
+}
+
+.menu {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    padding-left: 0;
+    margin-right: 10px;
+}
+
+.menu li a {
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.menu li a.active {
+    color: #fff200;
+    font-weight: bold;
+}
+
+
+.banner {
+    background-color: #f8f9fa;
+    padding: 50px 0;
+    text-align: center; 
+}
+
+.banner .container {
+    max-width: 1200px;
+    margin: 0 auto; 
+    padding: 0 20px; 
+}
+
+.banner-image {
+    max-width: 100%; 
+    height: 80%; 
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.konten {
+    background-color: #F8F9FA;
+}
+
+#berita-heading {
+    background-color: #F8F9FA;
+    font-size: 30px;
+    color: #333;
+    text-align: center;
+
+}
+
+.berita-content {
+    padding: 3%;
+    align-items: center;
+
+
+}
+
+.berita-image {
+    float: left;
+    width: 300px;
+    height: 300px;
+
+    img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+}
+
+
+.berita-title {
+    padding-left: 400px;
+}
+
+.berita-text {
+    padding-left: 400px;
+    text-align: justify;
+    padding-right: 200px;
+}
+
+.berita-button {
+    margin-top: 30px;
+    margin-left: 100px;
+    background-color: #f3f7fe;
+    color: #3b82f6;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100px;
+    height: 45px;
+    transition: 0.3s;
+}
+
+.berita-button:hover {
+    background-color: #3b82f6;
+    box-shadow: 0 0 0 5px #3b83f65f;
+    color: #fff;
+}
+
+footer {
+    background-color: #ED5D24; 
+    color: white; 
+    padding: 20px 0; 
+    text-align: center;
+}
+
+.footer-container {
+    display: flex; 
+    justify-content: center; 
+    align-items: flex-start;
+    gap: 50px; 
+}
+
+footer ul {
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+    text-align: left; 
+}
+
+footer ul li {
+    margin: 10px 0; 
+}
+
+footer ul li p {
+    margin: 0 0 10px 0; 
+    font-weight: bold; 
+}
+
+footer ul li a {
+    color: white; 
+    text-decoration: none; 
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+.penulis {
+    background-color: #f8f9fa; 
+    padding: 5px; 
+    border-radius: 5px; 
+    margin: 2px 0; 
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.penulis p {
+    margin: 5px 0; 
+    font-size: 14px; 
+}
+
+.penulis p:first-child {
+    font-weight: bold; 
+}
+
+.penulis p:last-child {
+    color: #555; 
+}
+
+.konten-berita {
+    padding: 50px; 
+    border-radius: 5px;
+    margin: 20px 0; 
+    font-family: Arial, sans-serif; 
+    color: #333; 
+    line-height: 1.6; 
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.konten-berita p {
+    margin: 0; 
+    font-size: 20px;
+    text-align: justify;
+}

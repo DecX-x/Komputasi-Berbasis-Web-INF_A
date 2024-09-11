@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<head>
+    <title>Contact</title>
+    <style>
+        body{
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h1{
+            text-align: center;
+        }
+        .forms{
+            margin-top: 25px;
+            margin-left: 20px;
+            margin-right: 20px;
+            border: 1px solid black;
+            padding: 20px;
+        }
+        input[type=text], select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+
+        input[type=submit] {
+            width: 100%;
+            background-color: rgb(136, 172, 240);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        input[type=reset] {
+            width: 20%;
+            background-color: rgb(240, 136, 136);
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            margin-left: 40%;
+            border: none;
+            border-radius: 2px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="forms">
+        <h1>Kontak Kami</h1>
+        <p id="p1">Masukkan:</p>
+        <form id="form1">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="Email">Email:</label><br>
+            <input type="text" id="Email" name="Email"><br>
+            <p>
+                Jenis Kelamin
+            </p>
+            <input type="radio" id="Laki-laki" name="Jenis-kel" value="Laki-laki">
+            <label for="Laki-laki">Laki-laki</label><br>
+            <input type="radio" id="Perempuan" name="Jenis-kel" value="Perempuan">
+            <label for="Perempuan">Perempuan</label><br>
+            <p>Hobby:</p>
+            <input type="checkbox" id="Coding" name="Hobby" value="Coding">
+            <label for="Coding">Coding</label><br>
+            <input type="checkbox" id="Bermain-Game" name="Hobby" value="Bermain Game">
+            <label for="Bermain-Game">Bermain Game</label><br>
+            <input type="checkbox" id="Basket" name="Hobby" value="Basket">
+            <label for="Basket">Basket</label><br><br>
+
+            <input type="submit" id="button" value="Submit">
+            <input type="reset" id="button" value="Reset">
+        </form>
+    </div>
+</body>
